@@ -54,7 +54,8 @@
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if(indexPath.row == 0 ){
-    
+        ViewAnimationViewController *propertyVC = [[ViewAnimationViewController alloc] initWithNibName:@"ViewAnimationViewController" bundle:nil];
+        [self.navigationController pushViewController:propertyVC animated:YES];
     }else if (indexPath.row == 1){
         LayeAnimationViewController *propertyVC = [[LayeAnimationViewController alloc] initWithNibName:@"LayeAnimationViewController" bundle:nil];
         [self.navigationController pushViewController:propertyVC animated:YES];

@@ -18,6 +18,9 @@
     [super viewDidLoad];
     self.title = @"View";
     self.view.backgroundColor=[UIColor yellowColor];
+    [UIView animateWithDuration:2 animations:^(void){
+        self.view.backgroundColor = [UIColor redColor];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
