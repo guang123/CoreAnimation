@@ -9,10 +9,12 @@
 #import "ViewAnimationViewController.h"
 
 @interface ViewAnimationViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
 @implementation ViewAnimationViewController
+@synthesize imageView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,6 +23,19 @@
     [UIView animateWithDuration:2 animations:^(void){
         self.view.backgroundColor = [UIColor redColor];
     }];
+    //绘制圆角方法一
+    imageView.layer.cornerRadius = imageView.frame.size.width/2.0;
+    imageView.layer.masksToBounds = YES;
+    
+    //绘制圆角方法二
+    CAShapeLayer *layer = [CAShapeLayer layer];
+    UIBezierPath *aPath = [UIBezierPath bezierPathWithOvalInRect:imageView.bounds];
+    layer.path = aPath.CGPath;
+    imageView.layer.mask = layer;
+    
+    //绘制圆角方法三 通过遮罩。这里不演示嘿嘿
+    
+    //扩展UIImageView 通过Quartz 2D绘制
 }
 
 - (void)didReceiveMemoryWarning {

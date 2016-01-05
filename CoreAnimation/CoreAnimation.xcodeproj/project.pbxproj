@@ -17,6 +17,7 @@
 		FA09F2881C24147600C42D44 /* birds_twp.png in Resources */ = {isa = PBXBuildFile; fileRef = FA09F2851C24147600C42D44 /* birds_twp.png */; settings = {ASSET_TAGS = (); }; };
 		FA09F28A1C2414C300C42D44 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = FA09F2891C2414C300C42D44 /* flower.png */; settings = {ASSET_TAGS = (); }; };
 		FA09F28D1C24207300C42D44 /* TPCGooButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FA09F28C1C24207300C42D44 /* TPCGooButton.m */; settings = {ASSET_TAGS = (); }; };
+		FAE8F0EC1C2A75FB00399041 /* test_image.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE8F0EB1C2A75FB00399041 /* test_image.png */; settings = {ASSET_TAGS = (); }; };
 		FAF81D601C25345E0044D660 /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF81D5E1C25345E0044D660 /* BezierViewController.m */; settings = {ASSET_TAGS = (); }; };
 		FAF81D611C25345E0044D660 /* BezierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF81D5F1C25345E0044D660 /* BezierViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		FAF81D661C256B7C0044D660 /* DynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF81D641C256B7C0044D660 /* DynamicsViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -63,6 +64,7 @@
 		FA09F2891C2414C300C42D44 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 		FA09F28B1C24207300C42D44 /* TPCGooButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCGooButton.h; sourceTree = "<group>"; };
 		FA09F28C1C24207300C42D44 /* TPCGooButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCGooButton.m; sourceTree = "<group>"; };
+		FAE8F0EB1C2A75FB00399041 /* test_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_image.png; sourceTree = "<group>"; };
 		FAF81D5D1C25345E0044D660 /* BezierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierViewController.h; sourceTree = "<group>"; };
 		FAF81D5E1C25345E0044D660 /* BezierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierViewController.m; sourceTree = "<group>"; };
 		FAF81D5F1C25345E0044D660 /* BezierViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BezierViewController.xib; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 		FAF97A7E1C228E2D0097C7CC /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				FAE8F0EB1C2A75FB00399041 /* test_image.png */,
 				FA09F2841C24147600C42D44 /* birds_one.png */,
 				FA09F2851C24147600C42D44 /* birds_twp.png */,
 				FA09F2831C24147600C42D44 /* birds_thr.png */,
@@ -346,6 +349,7 @@
 				FA09F2781C239AC800C42D44 /* snowflake_image.png in Resources */,
 				FAF97AB51C22D6370097C7CC /* LayerFrameAnimationViewController.xib in Resources */,
 				FAF81D611C25345E0044D660 /* BezierViewController.xib in Resources */,
+				FAE8F0EC1C2A75FB00399041 /* test_image.png in Resources */,
 				FA09F2861C24147600C42D44 /* birds_thr.png in Resources */,
 				FAF97AC81C22EB7E0097C7CC /* 6.png in Resources */,
 				FAF97A701C228D1F0097C7CC /* Assets.xcassets in Resources */,

@@ -26,6 +26,7 @@
     //设置视图控制器标题
     self.title = @"Main";
     _arrDataSource = [NSMutableArray arrayWithObjects:@"View动画",@"Layer动画",@"贝塞尔曲线",@"动力学", nil];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated{
